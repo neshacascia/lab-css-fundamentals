@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Exercise 3: CSS Fundamentals</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="John" required />
+      <br />
+      <br />
+
+      <label for="email">Email Address:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="johndoe@email.com"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="********"
+        minlength="8"
+        required
+      />
+      <br />
+      <br />
+
+      <div class="buttonContainer">
+        <button type="submit">Sign Up Now</button>
+        <button type="reset">Reset Form</button>
+      </div>
+    </form>
+
+    <footer>
+      <p>Exercise 3 completed by Nesha Mervin</p>
+    </footer>
+  </body>
+</html>
